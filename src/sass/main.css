@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.sideNav {
+  padding: 0px 3px;
+  min-width: 220px;
+}
+
+.sideNav .logo {
+  width: 50px;
+  margin-left: 5px;
+  margin-top: -8px;
+}
+
+.sideNav .logoIcon {
+  font-size: 30px;
+  color: #00a2ed;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.sideNav .logoIcon:hover {
+  background-color: #dcefff;
+  border-radius: 50%;
+}
+
+.sideNav .navListIcon {
+  margin-right: 20px;
+  font-size: 26px;
+}
+
+.sideNav .navListItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-align: center;
+  max-width: auto;
+  margin: 3px 0;
+}
+
+.sideNav .navListItem h4 {
+  text-align: left;
+  font-size: 19px;
+  float: left;
+}
+
+.sideNav .cover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 15px;
+}
+
+.sideNav .cover:hover {
+  background-color: #dcefff;
+  border-radius: 30px;
+}
+
+.sideNav .active {
+  color: red;
+  font-weight: bold;
+  font-size: 4px !important;
+}
+
+.btn {
+  background-color: #00a2ed;
+  color: #ffffff;
+  min-width: 100%;
+  border-radius: 30px;
+  border: none;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #008dce;
+}
+
+.card {
+  position: absolute;
+  bottom: 0;
+  margin-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card .imgCont {
+  width: 50px;
+}
+
+.card .imgCont img {
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
