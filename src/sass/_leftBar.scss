@@ -277,6 +277,13 @@
   }
 }
 
+
+@media (min-width: 415px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
 @media (max-width: 414px) {
   .sideNav {
     display: none;
